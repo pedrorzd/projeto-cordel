@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'branch';
+    src: url(fontes/Branch.otf)format(opentype), url(fontes/Branch.ttf) format(truetype);
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    background-color: #F2E8DC;
+}
+
+header {
+    background-color: #0D403B;
+    color: aliceblue;
+    padding:3vh;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'branch', Helvetica, sans-serif;
+    font-size: 10vw;
+    margin: 6px;
+}
+
+header > p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+}
+
+header > p > a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+}
+
+header > p > a:hover{
+    text-decoration: underline;
+}
+
+main > p {
+    text-align: justify;
+    font-family:'branch', Helvetica, sans-serif;
+    font-size: 4vw;
+    font-weight: bold;
+    line-height: 1.5;
+    padding:3vw;
+}
+
+.texto-primeira-img{
+    background-color:#778c8533;
+    font-family:'branch', Helvetica, sans-serif;
+    color: #F2E8DC;
+    width:55vw;
+    padding: 2vw;
+    font-size:4.5vw;
+    line-height: 1.5;
+
+}
+
+.first-image{
+    background-image: url(imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding:2vw;
+    padding:2vh;
+}
+
+.texto-segunda-img{
+    background-color:#778c857e;
+    font-family:'branch', Helvetica, sans-serif;
+    color: #F2E8DC;
+    width:55vw;
+    padding: 2vw;
+    font-size:4.5vw;
+    line-height: 1.5;
+}
+
+.second-image{
+    background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size:cover;
+    background-attachment: fixed;
+    padding:2vw;
+    padding:2vh;
+}
+
+footer {
+    background-color: rgb(13, 13, 13);
+    color: aliceblue;
+    padding: 8px;
+    text-align: center;
+}
+
+footer > p {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
